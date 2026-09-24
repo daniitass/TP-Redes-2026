@@ -15,7 +15,7 @@ Trabajo Práctico Integrador
   <img src="imagenes/grupo-d.png" alt="Grupo D" height="26">
   <img src="imagenes/2026.png" alt="Ciclo lectivo 2026" height="26">
 </p>
-<br>
+<hr>
 
 ### Programación sobre Redes
 
