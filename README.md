@@ -1,11 +1,29 @@
-# TP-Redes-2026
-Trabajo grupal ifts 18 - 2026 
-# Integrantes 
-## GRUPO D:
-* Lezcano, Sergio.
-* Roth Norberto Oscar
-* Tassara Daniela
-* Quintana, María Florencia
+
+# Fundamentos de Redes y Comunicaciones
+
+### Trabajo Práctico Integrador | Grupo D
+
+**Institución:** IFTS N.º 18  
+**Carrera:** Desarrollo de Software  
+**Año:** 2026
+
+---
+
+## Descripción
+
+Este repositorio contiene el desarrollo del trabajo práctico grupal de Redes, compuesto por 33 preguntas sobre fundamentos de redes informáticas, protocolos de comunicación, tecnologías de conectividad, infraestructura y seguridad.
+
+El trabajo incluye explicaciones teóricas, ejemplos prácticos, referencias técnicas y experiencias personales de los integrantes.
+
+---
+
+## Integrantes — Grupo D
+
+- Lezcano, Sergio.
+- Roth, Norberto Oscar.
+- Tassara, Daniela.
+- Quintana, María Florencia.
+
 ---
 
 ## Índice de preguntas
