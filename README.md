@@ -1,7 +1,9 @@
 
 <div align="center">
 
-### INSTITUTO DE FORMACIÓN TÉCNICA SUPERIOR N.º 18
+<p align="center">
+  <strong>INSTITUTO DE FORMACIÓN TÉCNICA SUPERIOR N.º 18</strong>
+</p>
 
 [Tecnicatura Superior en Desarrollo de Software](https://www.ifts18.edu.ar/)
 
@@ -15,15 +17,19 @@ Trabajo Práctico Integrador
   <img src="imagenes/grupo-d.png" alt="Grupo D" height="26">
   <img src="imagenes/2026.png" alt="Ciclo lectivo 2026" height="26">
 </p>
-<hr style="height: 1px;">
+<br>
 
-### Programación sobre Redes
+<p align="center">
+  <strong>Programación sobre Redes</strong>
+</p> 
 
 Docente: Lucas Rusatti · 3.º año
 
 <br>
 
-### Integrantes
+<p align="center">
+  <strong>Integrantes</strong>
+</p> 
 
 [Sergio Lezcano](https://github.com/SergioLezcano)
 
