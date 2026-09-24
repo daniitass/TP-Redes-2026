@@ -3,10 +3,12 @@
 
 ### Trabajo Práctico Integrador | Grupo D
 
-**Institución:** IFTS N.º 18  
-**Carrera:** Desarrollo de Software  
+**Institución:** [Instituto de Formación Técnica Superior N.º 18](https://www.ifts18.edu.ar/)  
+**Carrera:** Tecnicatura Superior en Desarrollo de Software  
+**Materia:** Programación sobre Redes  
+**Curso:** 3.º año  
+**Docente:** Lucas Rusatti  
 **Año:** 2026
-
 ---
 
 ## Descripción
@@ -19,10 +21,10 @@ El trabajo incluye explicaciones teóricas, ejemplos prácticos, referencias té
 
 ## Integrantes — Grupo D
 
-- Lezcano, Sergio.
-- Roth, Norberto Oscar.
-- Tassara, Daniela.
-- Quintana, María Florencia.
+- **[Sergio Lezcano](https://github.com/SergioLezcano)**
+- **[Norberto Oscar Roth](https://github.com/OscarRoth)**
+- **[Daniela Tassara](https://github.com/daniitass)**
+- **[María Florencia Quintana](https://github.com/Shahiro91)**
 
 ---
 
