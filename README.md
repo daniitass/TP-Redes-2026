@@ -307,6 +307,7 @@ Un firewall (o cortafuegos) es un sistema de seguridad de red que monitorea, fil
 Por ejemplo una empresa puede configurar un firewall para permitir que los usuarios naveguen por Internet, pero bloquear conexiones externas no autorizadas hacia las computadoras de su red interna. 
 
 **Fuente:** [Fortinet - ¿Qué es un firewall?](https://www.fortinet.com/lat/resources/cyberglossary/firewall)
+
 ---
 
 ## 18. ¿Qué es una DMZ?
