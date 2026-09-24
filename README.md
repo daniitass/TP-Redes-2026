@@ -1,17 +1,9 @@
 
 <div align="center">
 
-<img src="imagenes/logo-ifts.jpeg"
+<img src="imagenes/logo-fondo-ifts.png"
      alt="Instituto de Formación Técnica Superior N.º 18"
      width="250">
-
-<br>
-
-**INSTITUTO DE FORMACIÓN TÉCNICA SUPERIOR N.º 18**
-
-[Tecnicatura Superior en Desarrollo de Software](https://www.ifts18.edu.ar/)
-
-
 
 <br>
 
