@@ -11,12 +11,10 @@
 
 Trabajo Práctico Integrador
 
-<br>
-
-<img src="https://img.shields.io/badge/GRUPO-D-0969DA?style=flat" alt="Grupo D">
-<img src="https://img.shields.io/badge/CICLO_LECTIVO-2026-2DA44E?style=flat" alt="Ciclo lectivo 2026">
-
-<br>
+<p align="center">
+  <img src="imagenes/grupo-d.png" alt="Grupo D" height="26">
+  <img src="imagenes/2026.png" alt="Ciclo lectivo 2026" height="26">
+</p>
 <br>
 
 ### Programación sobre Redes
