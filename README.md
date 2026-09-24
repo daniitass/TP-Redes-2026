@@ -68,6 +68,8 @@ Una **VPN** o *Red Privada Virtual* es una tecnología que establece una conexi�
 * **Entornos de desarrollo:** Acceso privado y cifrado a APIs, entornos de pruebas y servicios en la nube.
 * **Ámbito educativo:** Acceso remoto de estudiantes a bases de datos, bibliotecas digitales y plataformas académicas.
 
+---
+
 ## 3. SAN (Storage Area Network)
 
 Una **SAN** es una red dedicada y de alta velocidad que conecta servidores con sistemas de almacenamiento compartido (matrices de discos, unidades SSD/HDD o bibliotecas de cintas) mediante hardware y software especializado (como *Fibre Channel*).
@@ -133,6 +135,8 @@ A diferencia del almacenamiento adjunto tradicional, permite superar los límite
 | **Hub** | Capa 1 (Física) | Ninguna | Red Local (LAN) | Difusión a todos los puertos (*Broadcast*) |
 | **Switch** | Capa 2 (Enlace) | Dirección MAC | Red Local (LAN) | Reenvío directo al destino específico |
 | **Router** | Capa 3 (Red) | Dirección IP | Entre redes distintas (LAN/WAN) | Enrutamiento estratégico de paquetes |
+
+---
 
 ## 5. Protocolos de Comunicación
 
@@ -214,6 +218,8 @@ Un paquete de datos en la pila TCP/IP se compone de un **encabezado IP**, un **e
 | **GAN** | *Global Area Network* | **Cobertura global:** Infraestructura transcontinental que combina satélites y redes internacionales para dar soporte a la conectividad móvil mundial. |
 | **VPN** | *Virtual Private Network* | **Red Lógica / Arquitectura Cifrada:** No definida por distancia física, sino por construir un túnel privado, autenticado y cifrado sobre una red pública (como Internet). |
 
+---
+
 ## 9. Defina una red según su topología. Explicar distintas variantes** 
 
 La topología de red define la estructura, forma o disposición (tanto física como lógica) en la que se organizan e interconectan los distintos nodos (computadoras, routers, switches) para transmitir datos dentro de una red. 
@@ -230,6 +236,8 @@ La topología de red define la estructura, forma o disposición (tanto física c
 <img src="https://uhu.es/antonio.barragan/files/archivos_usuarios/125/ethernet13.png" alt="topologia de redes" width="500">
 
 https://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-routers/bis-network-topologies.html:**
+
+---
 
 ## 10. Explicar el servicio de DHCP.**
 
@@ -251,6 +259,8 @@ Las direcciones IP no se entregan de forma permanente, sino en calidad de alquil
 
 https://datatracker.ietf.org/doc/html/rfc2131
 
+---
+
 ## 11. Explicar el servicio de DNS.**
 
 El servicio DNS (Domain Name System o Sistema de Nombres de Dominio) es básicamente la agenda telefónica de Internet. Su función principal es traducir los nombres de dominio que nosotros podemos recordar fácilmente, como google.com, a las direcciones IP numéricas que usan las computadoras y los routers para identificarse y comunicarse entre sí. Sin este servicio, tendríamos que memorizar largas cadenas de números para entrar a cualquier página web o usar cualquier servicio en red. 
@@ -258,6 +268,8 @@ El servicio DNS (Domain Name System o Sistema de Nombres de Dominio) es básicam
 El sistema funciona de forma distribuida y jerárquica para no colapsar. Cuando escribo una dirección web en el navegador, mi computadora primero revisa su propia memoria caché o le pregunta al servidor DNS de mi proveedor de internet. Si ese servidor no tiene la IP guardada, inicia una búsqueda por capas: le pregunta a un servidor Raíz, este lo deriva al servidor de la extensión del dominio (como .com o .ar), y este último lo manda al servidor autoritativo del sitio, que es el que finalmente tiene la IP exacta. Una vez que obtiene esa dirección IP, me la devuelve, mi equipo la guarda temporalmente en la caché para no tener que buscarla de nuevo más tarde, y el navegador abre la página. 
 
 https://www.cloudflare.com/learning/dns/what-is-dns/
+
+---
 
 ## 12. Explicar las tecnologías Wireless, y sus estándares.**
 
@@ -275,12 +287,16 @@ Además de Wi-Fi, existen otros estándares inalámbricos importantes según su 
 
 https://standards.ieee.org/ieee/802.11/7028/
 
+---
+
 ## 13. ¿Qué es un Proxy?**
 
 Un Proxy (o servidor proxy) es un equipo o programa informático que actúa como intermediario entre un cliente (por ejemplo, mi computadora o navegador) y el servidor de destino al que quiero acceder en Internet. Cuando tengo configurado un proxy, en lugar de conectarme directamente a una página web, mi dispositivo le envía la solicitud al proxy, y este la procesa, la reenvía al sitio web de destino, recibe la respuesta y finalmente me la transmite de vuelta. 
 Este intermediario se utiliza principalmente por tres motivos: seguridad, control y rendimiento. En primer lugar, ayuda a proteger la privacidad de la red interna porque oculta la dirección IP real del cliente y la reemplaza por la del propio proxy. En segundo lugar, se usa mucho en entornos corporativos o escolares para filtrar y bloquear el acceso a ciertas páginas web no permitidas (como redes sociales o juegos). Por último, mejora el rendimiento y la velocidad de navegación mediante el almacenamiento en caché; es decir, guarda una copia de los sitios web más visitados para entregarlos más rápido cuando varios usuarios piden la misma información, ahorrando así ancho de banda.
 
 https://developer.mozilla.org/es/docs/Web/HTTP/Proxy_servers_and_tunneling 
+
+---
 
 ## 14. Explicar el protocolo Spanning tree.**
 
@@ -289,11 +305,15 @@ Para solucionar esto, el protocolo Spanning Tree analiza la topología física d
 
 https://standards.ieee.org/ieee/802.1D/3387/ 
 
+---
+
 ## 15. Explicar el protocolo de comunicaciones OSPF.**
 
 OSPF (Open Shortest Path First o Primero el Camino Más Corto) es un protocolo de enrutamiento dinámico de tipo estado de enlace (link-state), utilizado en redes IP de interior (IGP) para determinar de forma automática la ruta más eficiente por la que deben viajar los paquetes de datos entre distintos routers dentro de una misma red corporativa o de un sistema autónomo. 
 A diferencia de protocolos más simples que solo cuentan la cantidad de saltos (routers por los que pasa el paquete), OSPF analiza la topología completa de la red y calcula la mejor ruta basándose en el costo, el cual se determina a partir del ancho de banda disponible en los enlaces. Para lograr esto, cada router genera y comparte mensajes llamados LSA (Link-State Advertisements) para informar a sus vecinos sobre el estado de sus conexiones. Con toda esa información, cada router construye un mapa completo de la red y utiliza el algoritmo Dijkstra (SPF) para calcular el camino más corto hacia cada destino. Además, OSPF organiza la red en áreas (siendo el Área 0 el backbone o núcleo obligatorio) para jerarquizar el tráfico, reducir el consumo de memoria en los routers y mantener la red estable y escalable.
 https://datatracker.ietf.org/doc/html/rfc2328 
+
+---
 
 ## 16. Explicar el protocolo ARP.**
 
@@ -301,7 +321,9 @@ El protocolo ARP (Address Resolution Protocol o Protocolo de Resolución de Dire
 El funcionamiento de ARP es muy directo. Cuando un dispositivo (como mi computadora) quiere enviarle datos a otro equipo en la misma red local pero solo conoce su dirección IP, envía una solicitud ARP en modo difusión (broadcast) a toda la red preguntando: "¿Quién tiene esta dirección IP y cuál es su dirección MAC?". Todos los equipos de la red reciben la pregunta, pero únicamente el dispositivo que posee esa IP responde de forma individual (unicast) enviando su dirección MAC física. Una vez que mi equipo recibe esa respuesta, guarda la asociación entre la IP y la MAC en una tabla temporal llamada memoria caché ARP. De esta forma, para los siguientes envíos no necesita volver a consultar a la red, lo que optimiza el tráfico y acelera la comunicación. 
 
 https://datatracker.ietf.org/doc/html/rfc826 
+
 ---
+
 ## 17. ¿Qué es un Firewall?
 Un firewall (o cortafuegos) es un sistema de seguridad de red que monitorea, filtra y controla el tráfico de datos entrante y saliente basándose en reglas preestablecidas para bloquear accesos no autorizados. 
 Por ejemplo una empresa puede configurar un firewall para permitir que los usuarios naveguen por Internet, pero bloquear conexiones externas no autorizadas hacia las computadoras de su red interna. 
