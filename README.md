@@ -337,7 +337,7 @@ La topología de red define la estructura, forma o disposición (tanto física c
 
 <img src="https://uhu.es/antonio.barragan/files/archivos_usuarios/125/ethernet13.png" alt="topologia de redes" width="500">
 
-https://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-routers/bis-network-topologies.html
+**Fuente:** [Cisco - Topologías de red](https://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-routers/bis-network-topologies.html)
 
 [↑ Volver al índice](#índice-de-preguntas)
 
@@ -361,7 +361,7 @@ Las direcciones IP no se entregan de forma permanente, sino en calidad de alquil
 * **Renovación:** Cuando se cumple aproximadamente el 50% del tiempo de concesión, el cliente le pide automáticamente al servidor extender el préstamo. Si el servidor responde, la concesión se renueva sin interrumpir la conexión.
 * **Liberación:** Si el dispositivo se desconecta de la red o no renueva el alquiler al vencer el plazo, la IP vuelve al pool de direcciones disponibles para que el servidor pueda asignársela a otro equipo que se conecte más tarde. Esto es clave en redes públicas (como cafeterías o aeropuertos) con un flujo constante de usuarios.
 
-https://datatracker.ietf.org/doc/html/rfc2131
+**Fuente:** [IETF - RFC 2131: Dynamic Host Configuration Protocol (DHCP)](https://datatracker.ietf.org/doc/html/rfc2131)
 
 [↑ Volver al índice](#índice-de-preguntas)
 
@@ -373,7 +373,7 @@ El servicio DNS (Domain Name System o Sistema de Nombres de Dominio) es básicam
 
 El sistema funciona de forma distribuida y jerárquica para no colapsar. Cuando escribo una dirección web en el navegador, mi computadora primero revisa su propia memoria caché o le pregunta al servidor DNS de mi proveedor de internet. Si ese servidor no tiene la IP guardada, inicia una búsqueda por capas: le pregunta a un servidor Raíz, este lo deriva al servidor de la extensión del dominio (como .com o .ar), y este último lo manda al servidor autoritativo del sitio, que es el que finalmente tiene la IP exacta. Una vez que obtiene esa dirección IP, me la devuelve, mi equipo la guarda temporalmente en la caché para no tener que buscarla de nuevo más tarde, y el navegador abre la página. 
 
-https://www.cloudflare.com/learning/dns/what-is-dns/
+**Fuente:** [Cloudflare - ¿Qué es DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/)
 
 [↑ Volver al índice](#índice-de-preguntas)
 
@@ -393,7 +393,7 @@ Los estándares de las redes inalámbricas más comunes están regulados princip
 
 Además de Wi-Fi, existen otros estándares inalámbricos importantes según su alcance y aplicación: IEEE 802.15.1 (Bluetooth) para redes personales de corto alcance (PAN) y bajo consumo; IEEE 802.15.4 (Zigbee / Z-Wave) utilizado principalmente para domótica y dispositivos IoT; e IEEE 802.16 (WiMAX) diseñado para redes de área metropolitana inalámbricas de gran cobertura.  
 
-https://standards.ieee.org/ieee/802.11/7028/
+**Fuente:** [IEEE - Estándar IEEE 802.11 (Redes inalámbricas)](https://standards.ieee.org/ieee/802.11/7028/)
 
 [↑ Volver al índice](#índice-de-preguntas)
 
@@ -404,7 +404,7 @@ https://standards.ieee.org/ieee/802.11/7028/
 Un Proxy (o servidor proxy) es un equipo o programa informático que actúa como intermediario entre un cliente (por ejemplo, mi computadora o navegador) y el servidor de destino al que quiero acceder en Internet. Cuando tengo configurado un proxy, en lugar de conectarme directamente a una página web, mi dispositivo le envía la solicitud al proxy, y este la procesa, la reenvía al sitio web de destino, recibe la respuesta y finalmente me la transmite de vuelta. 
 Este intermediario se utiliza principalmente por tres motivos: seguridad, control y rendimiento. En primer lugar, ayuda a proteger la privacidad de la red interna porque oculta la dirección IP real del cliente y la reemplaza por la del propio proxy. En segundo lugar, se usa mucho en entornos corporativos o escolares para filtrar y bloquear el acceso a ciertas páginas web no permitidas (como redes sociales o juegos). Por último, mejora el rendimiento y la velocidad de navegación mediante el almacenamiento en caché; es decir, guarda una copia de los sitios web más visitados para entregarlos más rápido cuando varios usuarios piden la misma información, ahorrando así ancho de banda.
 
-https://developer.mozilla.org/es/docs/Web/HTTP/Proxy_servers_and_tunneling 
+**Fuente:** [MDN Web Docs - Servidores proxy y túneles](https://developer.mozilla.org/es/docs/Web/HTTP/Proxy_servers_and_tunneling)
 
 [↑ Volver al índice](#índice-de-preguntas)
 
@@ -415,7 +415,7 @@ https://developer.mozilla.org/es/docs/Web/HTTP/Proxy_servers_and_tunneling
 El protocolo Spanning Tree (STP, por sus siglas en inglés Spanning Tree Protocol y estandarizado como IEEE 802.1D) es un protocolo de red de capa 2 (enlace de datos) que sirve para prevenir bucles o bucles infinitos en redes de conmutación (LANs) que cuentan con enlaces redundantes. Cuando conectamos varios switches entre sí con múltiples cables para tener respaldo ante cualquier falla, si no se usa STP, las tramas de difusión (broadcast) quedan circulando indefinidamente entre los dispositivos. Esto genera una tormenta de broadcast que satura los enlaces y colapsa la red en pocos segundos. 
 Para solucionar esto, el protocolo Spanning Tree analiza la topología física de la red y calcula una ruta lógica sin bucles. Lo hace eligiendo un switch principal llamado Puente Raíz (Root Bridge) y determinando cuáles son los caminos más cortos hacia él. Después, deja activos solo los puertos necesarios para la comunicación principal y bloquea automáticamente de forma lógica aquellos puertos sobrantes. Si en algún momento uno de los cables o switches activos falla, STP detecta el corte y desbloquea el puerto que estaba de respaldo para restaurar la conectividad automáticamente sin interrumpir el funcionamiento de la red. 
 
-https://standards.ieee.org/ieee/802.1D/3387/ 
+**Fuente:** [IEEE - Estándar IEEE 802.1D (Spanning Tree)](https://standards.ieee.org/ieee/802.1D/3387/)
 
 [↑ Volver al índice](#índice-de-preguntas)
 
@@ -425,7 +425,8 @@ https://standards.ieee.org/ieee/802.1D/3387/
 
 OSPF (Open Shortest Path First o Primero el Camino Más Corto) es un protocolo de enrutamiento dinámico de tipo estado de enlace (link-state), utilizado en redes IP de interior (IGP) para determinar de forma automática la ruta más eficiente por la que deben viajar los paquetes de datos entre distintos routers dentro de una misma red corporativa o de un sistema autónomo. 
 A diferencia de protocolos más simples que solo cuentan la cantidad de saltos (routers por los que pasa el paquete), OSPF analiza la topología completa de la red y calcula la mejor ruta basándose en el costo, el cual se determina a partir del ancho de banda disponible en los enlaces. Para lograr esto, cada router genera y comparte mensajes llamados LSA (Link-State Advertisements) para informar a sus vecinos sobre el estado de sus conexiones. Con toda esa información, cada router construye un mapa completo de la red y utiliza el algoritmo Dijkstra (SPF) para calcular el camino más corto hacia cada destino. Además, OSPF organiza la red en áreas (siendo el Área 0 el backbone o núcleo obligatorio) para jerarquizar el tráfico, reducir el consumo de memoria en los routers y mantener la red estable y escalable.
-https://datatracker.ietf.org/doc/html/rfc2328 
+
+**Fuente:** [IETF - RFC 2328: OSPF Version 2](https://datatracker.ietf.org/doc/html/rfc2328)
 
 [↑ Volver al índice](#índice-de-preguntas)
 
@@ -436,7 +437,7 @@ https://datatracker.ietf.org/doc/html/rfc2328
 El protocolo ARP (Address Resolution Protocol o Protocolo de Resolución de Direcciones) es un protocolo de red clave que trabaja en el nivel de enlace de datos y de red, cuya función principal es asociar una dirección IP conocida (dirección lógica) con su correspondiente dirección MAC (dirección física de la placa de red) dentro de una misma red local. Dado que los paquetes en una red Ethernet local no se entregan usando direcciones IP sino mediante las direcciones MAC impresas en el hardware de las tarjetas de red, se necesita a ARP para hacer esa traducción antes de enviar cualquier dato. 
 El funcionamiento de ARP es muy directo. Cuando un dispositivo (como mi computadora) quiere enviarle datos a otro equipo en la misma red local pero solo conoce su dirección IP, envía una solicitud ARP en modo difusión (broadcast) a toda la red preguntando: "¿Quién tiene esta dirección IP y cuál es su dirección MAC?". Todos los equipos de la red reciben la pregunta, pero únicamente el dispositivo que posee esa IP responde de forma individual (unicast) enviando su dirección MAC física. Una vez que mi equipo recibe esa respuesta, guarda la asociación entre la IP y la MAC en una tabla temporal llamada memoria caché ARP. De esta forma, para los siguientes envíos no necesita volver a consultar a la red, lo que optimiza el tráfico y acelera la comunicación. 
 
-https://datatracker.ietf.org/doc/html/rfc826 
+**Fuente:** [IETF - RFC 826: Address Resolution Protocol (ARP)](https://datatracker.ietf.org/doc/html/rfc826)
 
 [↑ Volver al índice](#índice-de-preguntas)
 
