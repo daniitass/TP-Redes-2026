@@ -34,7 +34,15 @@ Trabajo grupal ifts 18 - 2026
 22. [Tecnología LTE](#22-describir-la-tecnología-lte)
 23. [Microsoft Teams](#23-explique-la-solución-de-microsoft-teams)
 24. [Calidad en un enlace MPLS](#24-qué-significa-aplicar-calidad-en-un-enlace-mpls)
-33. [Experiencia en Redes](#33-experiencia-en-redes)
+25. [Diferencias entre una conexión Coaxial, UTP o Fibra](#25-qué-diferencias-puede-encontrar-entre-una-conexión-coaxial-utp-o-fibra)
+26. [Certificaciones Cisco: CCENT, CCNA y CCNP](#26-según-cisco-qué-significa-ccent-ccna-y-ccnp)
+27. [Modelo OSI](#27-explique-el-modelo-osi)
+28. [Estándar IEEE 802.3](#28-explicar-el-estándar-ieee-8023-regula-la-red-cómo-se-implementa-ventajas-y-desventajas)
+29. [Estándar IEEE 802.4](#29-explicar-el-estándar-ieee-8024-regula-la-red)
+30. [Protocolos para enviar y recibir correo electrónico](#30-qué-protocolos-se-usan-para-enviar-y-recibir-correo)
+31. [Protocolos para leer correo recibido](#31-qué-protocolo-puede-usarse-para-leer-correo-recibido)
+32. [Diferencias entre IPv4 e IPv6](#32-diferencias-entre-ipv4-e-ipv6)
+33. [Experiencia personal de los integrantes en redes](#33-experiencia-en-redes)
 
 ---
 
