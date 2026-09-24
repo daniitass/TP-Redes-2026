@@ -1,37 +1,57 @@
-
 <div align="center">
+
+### INSTITUTO DE FORMACIÓN TÉCNICA SUPERIOR N.º 18
+
+[Tecnicatura Superior en Desarrollo de Software](https://www.ifts18.edu.ar/)
+
+<br>
+
+---
+
+<br>
 
 # Fundamentos de Redes y Comunicaciones
 
 ### Trabajo Práctico Integrador
 
-**Instituto de Formación Técnica Superior N.º 18**
+<br>
 
-**Tecnicatura Superior en Desarrollo de Software**
+<img src="https://img.shields.io/badge/GRUPO-D-0969DA?style=for-the-badge" alt="Grupo D">
 
-**Materia:** Programación sobre Redes
+<img src="https://img.shields.io/badge/CICLO_LECTIVO-2026-2DA44E?style=for-the-badge" alt="Ciclo lectivo 2026">
+
+<br>
+<br>
+
+---
+
+### Programación sobre Redes
 
 **Docente:** Lucas Rusatti
 
 **Curso:** 3.º año
 
-**Grupo D | Ciclo lectivo 2026**
+<br>
 
 ---
 
 ### Integrantes
 
-[Sergio Lezcano](https://github.com/SergioLezcano)
+<br>
 
-[Norberto Oscar Roth](https://github.com/OscarRoth)
+**[Sergio Lezcano](https://github.com/SergioLezcano)**
 
-[Daniela Tassara](https://github.com/daniitass)
+**[Norberto Oscar Roth](https://github.com/OscarRoth)**
 
-[María Florencia Quintana](https://github.com/Shahiro91)
+**[Daniela Tassara](https://github.com/daniitass)**
+
+**[María Florencia Quintana](https://github.com/Shahiro91)**
+
+<br>
 
 ---
 
-**Buenos Aires, Argentina — 2026**
+**Buenos Aires, Argentina · 2026**
 
 </div>
 
@@ -39,7 +59,7 @@
 
 ## Descripción
 
-Este repositorio contiene el desarrollo del trabajo práctico grupal de la materia Programación sobre Redes, compuesto por 33 preguntas sobre fundamentos de redes informáticas, protocolos de comunicación, tecnologías de conectividad, infraestructura y seguridad.
+Este repositorio contiene el desarrollo del trabajo práctico grupal de la materia **Programación sobre Redes**, compuesto por 33 preguntas sobre fundamentos de redes informáticas, protocolos de comunicación, tecnologías de conectividad, infraestructura y seguridad.
 
 El trabajo incluye explicaciones teóricas, ejemplos prácticos, referencias técnicas y experiencias personales de los integrantes.
 
