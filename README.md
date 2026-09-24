@@ -1,3 +1,4 @@
+
 <div align="center">
 
 ### INSTITUTO DE FORMACIÓN TÉCNICA SUPERIOR N.º 18
@@ -6,62 +7,45 @@
 
 <br>
 
----
-
-<br>
-
 # Fundamentos de Redes y Comunicaciones
 
-### Trabajo Práctico Integrador
+Trabajo Práctico Integrador
 
 <br>
 
-<img src="https://img.shields.io/badge/GRUPO-D-0969DA?style=for-the-badge" alt="Grupo D">
-
-<img src="https://img.shields.io/badge/CICLO_LECTIVO-2026-2DA44E?style=for-the-badge" alt="Ciclo lectivo 2026">
+<img src="https://img.shields.io/badge/GRUPO-D-0969DA?style=flat" alt="Grupo D">
+<img src="https://img.shields.io/badge/CICLO_LECTIVO-2026-2DA44E?style=flat" alt="Ciclo lectivo 2026">
 
 <br>
 <br>
-
----
 
 ### Programación sobre Redes
 
-**Docente:** Lucas Rusatti
-
-**Curso:** 3.º año
+Docente: Lucas Rusatti · 3.º año
 
 <br>
-
----
 
 ### Integrantes
 
-<br>
+[Sergio Lezcano](https://github.com/SergioLezcano)
 
-**[Sergio Lezcano](https://github.com/SergioLezcano)**
+[Norberto Oscar Roth](https://github.com/OscarRoth)
 
-**[Norberto Oscar Roth](https://github.com/OscarRoth)**
+[Daniela Tassara](https://github.com/daniitass)
 
-**[Daniela Tassara](https://github.com/daniitass)**
-
-**[María Florencia Quintana](https://github.com/Shahiro91)**
+[María Florencia Quintana](https://github.com/Shahiro91)
 
 <br>
 
----
-
-**Buenos Aires, Argentina · 2026**
+Buenos Aires, Argentina · 2026
 
 </div>
 
-<br>
+---
 
 ## Descripción
 
 Este repositorio contiene el desarrollo del trabajo práctico grupal de la materia **Programación sobre Redes**, compuesto por 33 preguntas sobre fundamentos de redes informáticas, protocolos de comunicación, tecnologías de conectividad, infraestructura y seguridad.
-
-El trabajo incluye explicaciones teóricas, ejemplos prácticos, referencias técnicas y experiencias personales de los integrantes.
 
 ---
 
