@@ -1,30 +1,47 @@
 
+<div align="center">
+
 # Fundamentos de Redes y Comunicaciones
 
-### Trabajo Práctico Integrador | Grupo D
+### Trabajo Práctico Integrador
 
-**Institución:** [Instituto de Formación Técnica Superior N.º 18](https://www.ifts18.edu.ar/)  
-**Carrera:** Tecnicatura Superior en Desarrollo de Software  
-**Materia:** Programación sobre Redes  
-**Curso:** 3.º año  
-**Docente:** Lucas Rusatti  
-**Año:** 2026
+**Instituto de Formación Técnica Superior N.º 18**
+
+**Tecnicatura Superior en Desarrollo de Software**
+
+**Materia:** Programación sobre Redes
+
+**Docente:** Lucas Rusatti
+
+**Curso:** 3.º año
+
+**Grupo D | Ciclo lectivo 2026**
+
 ---
+
+### Integrantes
+
+[Sergio Lezcano](https://github.com/SergioLezcano)
+
+[Norberto Oscar Roth](https://github.com/OscarRoth)
+
+[Daniela Tassara](https://github.com/daniitass)
+
+[María Florencia Quintana](https://github.com/Shahiro91)
+
+---
+
+**Buenos Aires, Argentina — 2026**
+
+</div>
+
+<br>
 
 ## Descripción
 
-Este repositorio contiene el desarrollo del trabajo práctico grupal de Redes, compuesto por 33 preguntas sobre fundamentos de redes informáticas, protocolos de comunicación, tecnologías de conectividad, infraestructura y seguridad.
+Este repositorio contiene el desarrollo del trabajo práctico grupal de la materia Programación sobre Redes, compuesto por 33 preguntas sobre fundamentos de redes informáticas, protocolos de comunicación, tecnologías de conectividad, infraestructura y seguridad.
 
 El trabajo incluye explicaciones teóricas, ejemplos prácticos, referencias técnicas y experiencias personales de los integrantes.
-
----
-
-## Integrantes — Grupo D
-
-- **[Sergio Lezcano](https://github.com/SergioLezcano)**
-- **[Norberto Oscar Roth](https://github.com/OscarRoth)**
-- **[Daniela Tassara](https://github.com/daniitass)**
-- **[María Florencia Quintana](https://github.com/Shahiro91)**
 
 ---
 
