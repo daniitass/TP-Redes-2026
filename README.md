@@ -5,7 +5,9 @@
      alt="Instituto de Formación Técnica Superior N.º 18"
      width="100%">
 
-<br>
+     *INSTITUTO DE FORMACIÓN TÉCNICA SUPERIOR N.º 18*
+
+[Tecnicatura Superior en Desarrollo de Software](https://www.ifts18.edu.ar/)
 
 # Fundamentos de Redes y Comunicaciones
 
