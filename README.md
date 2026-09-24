@@ -67,8 +67,9 @@ Una **VLAN** o *LAN Virtual* permite crear redes lógicamente independientes sob
 * VLAN de gestión
 * VLAN de control
 * VLAN dedicada
-* 
+
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 2. VPN (Virtual Private Network)
@@ -97,8 +98,9 @@ Una **VPN** o *Red Privada Virtual* es una tecnología que establece una conexi�
 * **Entornos multinube e híbridos:** Interconexión de recursos locales con múltiples proveedores de nube.
 * **Entornos de desarrollo:** Acceso privado y cifrado a APIs, entornos de pruebas y servicios en la nube.
 * **Ámbito educativo:** Acceso remoto de estudiantes a bases de datos, bibliotecas digitales y plataformas académicas.
-* 
+
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 3. SAN (Storage Area Network)
@@ -125,6 +127,7 @@ A diferencia del almacenamiento adjunto tradicional, permite superar los límite
 * **Infraestructura de red:** Componentes de interconexión físicos (conmutadores, directores, enrutadores, Fibre Channel) y software de gestión centralizada.
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 4. Comparativa de Dispositivos de Red
@@ -169,6 +172,7 @@ A diferencia del almacenamiento adjunto tradicional, permite superar los límite
 | **Router** | Capa 3 (Red) | Dirección IP | Entre redes distintas (LAN/WAN) | Enrutamiento estratégico de paquetes |
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 5. Protocolos de Comunicación
@@ -182,6 +186,7 @@ Un **protocolo de comunicación** es un conjunto estandarizado de reglas, pautas
 4. **TCP/IP:** Protocolo basado en la transmisión de paquetes. Divide la información en fragmentos independientes que eligen la ruta más eficiente según el estado de la red, garantizando estabilidad y velocidad.
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 6. TCP/IP vs. NetBIOS
@@ -210,6 +215,7 @@ Es una interfaz de software y conjunto de servicios de nivel de sesión desarrol
 | **Escalabilidad** | Limitada; dependiente de difusión local. | Alta; diseñado para enrutamiento entre redes masivas. |
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 7. Estructura de un Paquete TCP/IP y "Flags"
@@ -240,6 +246,7 @@ Un paquete de datos en la pila TCP/IP se compone de un **encabezado IP**, un **e
   * **URG:** Indica que el segmento contiene información urgente que debe procesarse prioritariamente.
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 8. Clasificación de Redes según su Geografía
@@ -255,6 +262,7 @@ Un paquete de datos en la pila TCP/IP se compone de un **encabezado IP**, un **e
 | **VPN** | *Virtual Private Network* | **Red Lógica / Arquitectura Cifrada:** No definida por distancia física, sino por construir un túnel privado, autenticado y cifrado sobre una red pública (como Internet). |
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 9. Defina una red según su topología. Explicar distintas variantes
@@ -275,6 +283,7 @@ La topología de red define la estructura, forma o disposición (tanto física c
 https://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-routers/bis-network-topologies.html
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 10. Explicar el servicio de DHCP.
@@ -298,6 +307,7 @@ Las direcciones IP no se entregan de forma permanente, sino en calidad de alquil
 https://datatracker.ietf.org/doc/html/rfc2131
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 11. Explicar el servicio de DNS.
@@ -309,6 +319,7 @@ El sistema funciona de forma distribuida y jerárquica para no colapsar. Cuando 
 https://www.cloudflare.com/learning/dns/what-is-dns/
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 12. Explicar las tecnologías Wireless, y sus estándares.
@@ -328,6 +339,7 @@ Además de Wi-Fi, existen otros estándares inalámbricos importantes según su 
 https://standards.ieee.org/ieee/802.11/7028/
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 13. ¿Qué es un Proxy?
@@ -338,6 +350,7 @@ Este intermediario se utiliza principalmente por tres motivos: seguridad, contro
 https://developer.mozilla.org/es/docs/Web/HTTP/Proxy_servers_and_tunneling 
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 14. Explicar el protocolo Spanning tree.
@@ -348,6 +361,7 @@ Para solucionar esto, el protocolo Spanning Tree analiza la topología física d
 https://standards.ieee.org/ieee/802.1D/3387/ 
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 15. Explicar el protocolo de comunicaciones OSPF.
@@ -357,6 +371,7 @@ A diferencia de protocolos más simples que solo cuentan la cantidad de saltos (
 https://datatracker.ietf.org/doc/html/rfc2328 
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 16. Explicar el protocolo ARP.
@@ -367,6 +382,7 @@ El funcionamiento de ARP es muy directo. Cuando un dispositivo (como mi computad
 https://datatracker.ietf.org/doc/html/rfc826 
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 17. ¿Qué es un Firewall?
@@ -376,6 +392,7 @@ Por ejemplo una empresa puede configurar un firewall para permitir que los usuar
 **Fuente:** [Fortinet - ¿Qué es un firewall?](https://www.fortinet.com/lat/resources/cyberglossary/firewall)
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 18. ¿Qué es una DMZ?
@@ -387,6 +404,7 @@ Por ejemplo, una empresa puede colocar su servidor web en una DMZ. Los usuarios 
 **Fuente:** [NIST - Demilitarized Zone](https://csrc.nist.gov/glossary/term/demilitarized_zone)
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 19. ¿Qué es un Gateway?
@@ -400,6 +418,7 @@ Por ejemplo, una notebook con IP `192.168.1.20` puede tener como gateway predete
 **Fuente:** [Cisco - What Is a Network Gateway?](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-network-gateway.html)
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 20. Según Microsoft, ¿qué significa NBL?
@@ -415,6 +434,7 @@ Por ejemplo, si una aplicación web funciona en tres servidores, NLB puede repar
 **Fuente:** [Microsoft Learn - Network Load Balancing](https://learn.microsoft.com/es-es/windows-server/networking/technologies/network-load-balancing)
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 21. Tipos de enlace: MPLS, LAN to LAN, microondas y VSAT
@@ -470,6 +490,7 @@ Elegiría un enlace de **microondas punto a punto** porque la corta distancia y 
 - [Cloudflare - ¿Qué es la capa de red?](https://www.cloudflare.com/es-es/learning/network-layer/what-is-the-network-layer/)
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 22. Describir la tecnología LTE
@@ -484,6 +505,7 @@ Por ejemplo, cuando un celular muestra `4G` o `LTE`, normalmente está utilizand
 - [3GPP - Organización responsable de las especificaciones de LTE](https://www.3gpp.org/article/OFDM)
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 23. Explique la solución de Microsoft Teams
@@ -503,6 +525,7 @@ Por ejemplo, un equipo de trabajo puede crear un grupo en Teams, conversar media
 - [Slack - Plataforma de comunicación y colaboración](https://slack.com/)
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 ## 24. ¿Qué significa aplicar calidad en un enlace MPLS?
@@ -514,6 +537,7 @@ Por ejemplo, se puede dar mayor prioridad a llamadas de voz o videoconferencias 
 **Fuente:** [Cisco - MPLS Quality of Service (QoS)](https://www.cisco.com/c/en/us/td/docs/routers/ios-xe/mpls/mpls/m-mp-qos-xe.html)
 
 [↑ Volver al índice](#índice-de-preguntas)
+
 ---
 
 
