@@ -301,14 +301,144 @@ El protocolo ARP (Address Resolution Protocol o Protocolo de Resolución de Dire
 El funcionamiento de ARP es muy directo. Cuando un dispositivo (como mi computadora) quiere enviarle datos a otro equipo en la misma red local pero solo conoce su dirección IP, envía una solicitud ARP en modo difusión (broadcast) a toda la red preguntando: "¿Quién tiene esta dirección IP y cuál es su dirección MAC?". Todos los equipos de la red reciben la pregunta, pero únicamente el dispositivo que posee esa IP responde de forma individual (unicast) enviando su dirección MAC física. Una vez que mi equipo recibe esa respuesta, guarda la asociación entre la IP y la MAC en una tabla temporal llamada memoria caché ARP. De esta forma, para los siguientes envíos no necesita volver a consultar a la red, lo que optimiza el tráfico y acelera la comunicación. 
 
 https://datatracker.ietf.org/doc/html/rfc826 
-
-## 17. ¿Qué es un Firewall?**
+---
+## 17. ¿Qué es un Firewall?
 Un firewall (o cortafuegos) es un sistema de seguridad de red que monitorea, filtra y controla el tráfico de datos entrante y saliente basándose en reglas preestablecidas para bloquear accesos no autorizados. 
 Por ejemplo una empresa puede configurar un firewall para permitir que los usuarios naveguen por Internet, pero bloquear conexiones externas no autorizadas hacia las computadoras de su red interna. 
 
 **Fuente:** [Fortinet - ¿Qué es un firewall?](https://www.fortinet.com/lat/resources/cyberglossary/firewall)
+---
 
+## 18. ¿Qué es una DMZ?
 
+Una **DMZ (Zona Desmilitarizada)** es un término que proviene del concepto militar de "zona desmilitarizada", una zona de separación entre partes enfrentadas. En redes informáticas se utiliza de forma similar para definir una zona intermedia entre una red interna confiable e Internet, ayudando a proteger la red interna.
+
+Por ejemplo, una empresa puede colocar su servidor web en una DMZ. Los usuarios de Internet pueden acceder al servidor web, pero **no directamente a las computadoras de la red interna**.
+
+**Fuente:** [NIST - Demilitarized Zone](https://csrc.nist.gov/glossary/term/demilitarized_zone)
+
+---
+
+## 19. ¿Qué es un Gateway?
+
+Un **Gateway (puerta de enlace)** es un dispositivo o punto de una red que permite la **comunicación con otra red**. En una red doméstica, normalmente el router cumple la función de gateway y permite que los dispositivos de la red local puedan comunicarse con Internet.
+
+Cisco también señala que un gateway puede conectar redes diferentes y, cuando es necesario, traducir protocolos entre ellas.
+
+Por ejemplo, una notebook con IP `192.168.1.20` puede tener como gateway predeterminado el router `192.168.1.1`. Cuando necesita acceder a Internet, envía hacia ese gateway el tráfico destinado fuera de su red local.
+
+**Fuente:** [Cisco - What Is a Network Gateway?](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-network-gateway.html)
+
+---
+
+## 20. Según Microsoft, ¿qué significa NBL?
+
+**Nota:** La sigla correspondiente a la tecnología descrita es NLB (Network Load Balancing), no NBL.
+
+**NLB (Network Load Balancing)** significa **Equilibrio de carga de red**. Es una tecnología de Windows Server que permite **distribuir el tráfico de red entre varios servidores**, agrupándolos en un clúster virtual.
+
+Esto ayuda a mejorar la disponibilidad y el rendimiento de servicios como servidores web, FTP, proxy o VPN.
+
+Por ejemplo, si una aplicación web funciona en tres servidores, NLB puede repartir las solicitudes de los usuarios entre esos servidores, evitando que todo el trabajo recaiga sobre uno solo. Si uno queda fuera de servicio, la carga puede redistribuirse entre los restantes.
+
+**Fuente:** [Microsoft Learn - Network Load Balancing](https://learn.microsoft.com/es-es/windows-server/networking/technologies/network-load-balancing)
+
+---
+
+## 21. Tipos de enlace: MPLS, LAN to LAN, microondas y VSAT
+
+### a. Explique cada uno de estos tipos de enlace
+
+**MPLS (Multiprotocol Label Switching):** tecnología utilizada por proveedores para conectar distintas sedes de una organización mediante una red privada. Permite priorizar determinados tipos de tráfico mediante QoS, por ejemplo, dando prioridad a voz o aplicaciones críticas.
+
+**LAN to LAN:** conexión que permite unir dos redes LAN ubicadas en lugares diferentes, haciendo que puedan comunicarse entre sí. El proveedor generalmente ofrece el enlace como un servicio punto a punto.
+
+**Microondas:** enlace inalámbrico que utiliza ondas de radio para comunicar dos puntos. Normalmente requiere línea de vista entre las antenas. Puede ofrecer buena velocidad sin necesidad de realizar cableado entre ambos lugares.
+
+**VSAT (Very Small Aperture Terminal):** comunicación mediante satélite utilizando pequeñas antenas terrestres. Su principal ventaja es poder llegar a lugares remotos donde no existe infraestructura terrestre. Como desventaja, suele tener mayor latencia, especialmente cuando utiliza satélites geoestacionarios.
+
+### b. Agregue dos tipos de enlaces no mencionados anteriormente
+
+**Fibra óptica:** transmite información mediante pulsos de luz. Permite velocidades y capacidades muy altas, baja latencia y grandes distancias. Es una de las mejores alternativas cuando existe infraestructura disponible.
+
+**4G/5G:** utiliza redes móviles para proporcionar conectividad de datos. Es fácil y rápido de implementar donde existe cobertura y puede ser utilizado como enlace principal o de respaldo.
+
+### c. Ranking de enlaces
+
+El siguiente ranking es **orientativo**, porque el resultado real depende del proveedor, ubicación, ancho de banda contratado, SLA, infraestructura existente y otros factores.
+
+Se utiliza una escala del **1 al 6, siendo 1 la mejor posición** para cada criterio.
+
+| Criterio | 1 (mejor) | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|
+| Más económico | 4G/5G | Microondas | LAN to LAN | Fibra | MPLS | VSAT |
+| Performance | Fibra | LAN to LAN | MPLS | Microondas | 4G/5G | VSAT |
+| Mayor capacidad | Fibra | LAN to LAN | MPLS | Microondas | 4G/5G | VSAT |
+| Configuración de restricciones / QoS | MPLS | LAN to LAN | Fibra | Microondas | 4G/5G | VSAT |
+| Mayor distancia | VSAT | MPLS | Fibra | 4G/5G | Microondas | LAN to LAN |
+| Menor esfuerzo de configuración | 4G/5G | VSAT | LAN to LAN | Fibra | MPLS | Microondas |
+
+### d. Elección del tipo de enlace según el escenario
+
+**1. Conectividad de varios call centers con un data center central.**
+
+Elegiría **MPLS** porque permite conectar múltiples sedes y aplicar QoS para priorizar tráfico sensible a latencia, como VoIP. En un call center esto es especialmente importante para mantener la calidad de las llamadas.
+
+**2. Conectar los datos de los pozos petroleros durante 15 minutos por día.**
+
+Elegiría **VSAT** porque los pozos pueden encontrarse en lugares remotos sin fibra, cableado o cobertura celular. Si solamente se necesita transmitir datos durante un período corto del día, la mayor latencia del satélite puede ser aceptable.
+
+**3. Comunicar dos edificios enfrentados en la misma calle.**
+
+Elegiría un enlace de **microondas punto a punto** porque la corta distancia y la posibilidad de tener línea de vista entre ambos edificios permiten establecer un enlace inalámbrico de buena capacidad sin tener que instalar un cable atravesando la calle.
+
+**Fuentes:**
+
+- [Cisco - Conceptos de redes y MPLS](https://www.cisco.com/c/es_mx/support/docs/multiprotocol-label-switching-mpls/mpls/4649-mpls-faq-4649.html)
+- [Cloudflare - ¿Qué es la capa de red?](https://www.cloudflare.com/es-es/learning/network-layer/what-is-the-network-layer/)
+
+---
+
+## 22. Describir la tecnología LTE
+
+**LTE (Long Term Evolution)** es una tecnología de banda ancha móvil que permite transmitir datos a alta velocidad mediante una red celular. Es la tecnología que se convirtió en la base de gran parte de las redes conocidas comercialmente como **4G**.
+
+Por ejemplo, cuando un celular muestra `4G` o `LTE`, normalmente está utilizando una red LTE del operador para navegar por Internet, enviar datos o utilizar diferentes servicios.
+
+**Fuentes:**
+
+- [IEEE - Long Term Evolution (LTE)](https://technav.ieee.org/topic/lte/)
+- [3GPP - Organización responsable de las especificaciones de LTE](https://www.3gpp.org/article/OFDM)
+
+---
+
+## 23. Explique la solución de Microsoft Teams
+
+**Microsoft Teams** es una plataforma de comunicación y colaboración de Microsoft. Permite que personas de una empresa, institución o grupo puedan **chatear, realizar videollamadas y reuniones, compartir archivos y trabajar en equipo desde un mismo lugar**.
+
+Una alternativa **Open Source** es Mattermost, que puede instalarse en servidores propios, dando a la organización mayor control sobre sus datos.
+
+Otra alternativa comercial es Slack, que también busca facilitar la comunicación y el trabajo colaborativo.
+
+Por ejemplo, un equipo de trabajo puede crear un grupo en Teams, conversar mediante chat, compartir documentos y realizar una videollamada para discutir un proyecto sin salir de la misma plataforma.
+
+**Fuentes:**
+
+- [Microsoft - ¿Qué es Microsoft Teams?](https://support.microsoft.com/es-es/teams/platform/what-is-microsoft-teams)
+- [Mattermost - Plataforma de colaboración](https://mattermost.com/)
+- [Slack - Plataforma de comunicación y colaboración](https://slack.com/)
+
+---
+
+## 24. ¿Qué significa aplicar calidad en un enlace MPLS?
+
+Aplicar **calidad en un enlace MPLS** significa utilizar mecanismos de **Calidad de Servicio (QoS)** para **dar prioridad a determinados tipos de tráfico** sobre otros.
+
+Por ejemplo, se puede dar mayor prioridad a llamadas de voz o videoconferencias que a una descarga de archivos, para mantener una buena comunicación cuando la red está congestionada.
+
+**Fuente:** [Cisco - MPLS Quality of Service (QoS)](https://www.cisco.com/c/en/us/td/docs/routers/ios-xe/mpls/mpls/m-mp-qos-xe.html)
+
+---
 
 
 **33. Experiencia en Redes:**
