@@ -4,15 +4,15 @@
   
 [Tecnicatura Superior en Desarrollo de Software](https://www.ifts18.edu.ar/)
 
-|Fundamentos de Redes y Comunicaciones|
-|:----------------------------------------------:|
+# Fundamentos de Redes y Comunicaciones
+
 Trabajo Práctico Integrador
-|:----------------------------------------------:|
+
 <p align="center">
   <img src="imagenes/grupo-d.png" alt="Grupo D" height="26">
   <img src="imagenes/2026.png" alt="Ciclo lectivo 2026" height="26">
 </p>
-|:----------------------------------------------:|
+
 <br>
 
 <p align="center">
