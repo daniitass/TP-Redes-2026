@@ -3,7 +3,7 @@
 
 <img src="imagenes/logo-fondo-ifts.png"
      alt="Instituto de Formación Técnica Superior N.º 18"
-     width="250">
+     width="100%">
 
 <br>
 
