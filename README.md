@@ -4,7 +4,7 @@
 [Tecnicatura Superior en Desarrollo de Software](https://www.ifts18.edu.ar/)|
 
 
-# |Fundamentos de Redes y Comunicaciones|
+|Fundamentos de Redes y Comunicaciones|
 |:----------------------------------------------:|
 Trabajo Práctico Integrador
 
