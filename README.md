@@ -1,17 +1,11 @@
 
 <div align="center">
-|
-<img src="imagenes/logo-fondo-ifts.png"
-     alt="Instituto de Formación Técnica Superior N.º 18"
-     width="100%">
-
- 
-
-
-     
-[Tecnicatura Superior en Desarrollo de Software](https://www.ifts18.edu.ar/) |
-
+|<img src="imagenes/logo-fondo-ifts.png" alt="Instituto de Formación Técnica Superior N.º 18" width="100%">|
 |:----------------------------------------------:|
+     
+|[Tecnicatura Superior en Desarrollo de Software](https://www.ifts18.edu.ar/)|
+|:----------------------------------------------:|
+
 # Fundamentos de Redes y Comunicaciones
 
 Trabajo Práctico Integrador
