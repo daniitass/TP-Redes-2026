@@ -42,7 +42,11 @@ Trabajo grupal ifts 18 - 2026
 30. [Protocolos para enviar y recibir correo electrónico](#30-qué-protocolos-se-usan-para-enviar-y-recibir-correo)
 31. [Protocolos para leer correo recibido](#31-qué-protocolo-puede-usarse-para-leer-correo-recibido)
 32. [Diferencias entre IPv4 e IPv6](#32-diferencias-entre-ipv4-e-ipv6)
-33. [Experiencia personal de los integrantes en redes](#33-experiencia-en-redes)
+33. [Experiencia en Redes](#33-experiencia-en-redes)
+    - [Sergio Lezcano](#sergio-lezcano)
+    - [Norberto Oscar Roth](#norberto-oscar-roth)
+    - [Daniela Tassara](#daniela-tassara)
+    - [María Florencia Quintana](#maría-florencia-quintana)
 
 ---
 
@@ -549,7 +553,7 @@ Por ejemplo, se puede dar mayor prioridad a llamadas de voz o videoconferencias 
 ---
 
 
-**33. Experiencia en Redes:**
+## 33. Experiencia en Redes:
 ### Sergio Lezcano: 
 
 No tengo experiencia. 
@@ -572,6 +576,8 @@ En ese mismo trabajo, cuando trabajaba de forma remota una vez por semana, acced
 - Actualmente utilizo y configuro principalmente redes Wi-Fi y conexiones Bluetooth entre notebooks, celulares, auriculares, smartwatch, Smart TV, Apple TV y decodificadores de Flow.
 Para ampliar la cobertura Wi-Fi de mi casa sin realizar cableado, utilizo un extensor de rango TP-Link TL-WA850RE como repetidor de señal.
 También utilizo aplicaciones del celular como controles remotos para distintos dispositivos y realizo casting de contenido hacia Smart TV. Además tengo experiencia vinculando dispositivos como AirTag y otros equipos inteligentes mediante Bluetooth o Wi-Fi.
+
+### Daniela Tassara: 
 
 ### María Florencia Quintana: 
 
