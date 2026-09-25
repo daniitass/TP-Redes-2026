@@ -817,6 +817,14 @@ No tengo ninguna experiencia previa en redes. Lo único que se de redes es la te
 
 [↑ Volver al índice](#índice-de-preguntas)
 
+---
+
+**Video explicativo** 
+
+En base al trabajo prácito decidimos hacer un video con IA , donde le pedimos que recorra desde el concepto más básico a los mas complejos , dando ejemplos y de forma más creativa poder exponer los temas . 
+
+[Video en Notebook](https://notebook.google.com/notebook/ac5bf0c9-fd7c-4b2c-b8af-f77fe51984df/artifact/20e38e82-70e7-4c01-8bff-e039ec11a775?utm_source=nlm_web_share&utm_medium=google_oo&utm_campaign=art_share_1&utm_content=&utm_smc=nlm_web_share_google_oo_art_share_1_)
+
 
 
 
