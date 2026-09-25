@@ -704,8 +704,79 @@ El estándar IEEE 802.3 define las normas para las redes Ethernet cableadas. Esp
 * Los cables de cobre pueden ser afectados por interferencias electromagnéticas, a diferencia de la fibra óptica.
 
 **Fuente:** 
--[Ethernet](https://standards.ieee.org/ieee/802.3/12400)
--[Comunicación](https://technav.ieee.org/topic/communication-cables)
+- [Ethernet](https://standards.ieee.org/ieee/802.3/12400)
+- [Comunicación](https://technav.ieee.org/topic/communication-cables)
+
+[↑ Volver al índice](#índice-de-preguntas)
+
+---
+## 29. Explicar el estándar IEEE 802.4 regula la red
+
+**IEEE 802.4 – Token Bus**
+
+El estándar IEEE 802.4 define una tecnología de red de área local conocida como Token Bus. Utiliza una topología física en bus, pero organiza las estaciones de manera lógica como un anillo. Para controlar quién puede transmitir, utiliza un testigo (token) que circula entre las estaciones. Solo el dispositivo que posee el testigo puede enviar datos, evitando así las colisiones.
+
+**¿Cómo funciona?**
+
+ Las computadoras están conectadas a un medio compartido, generalmente un bus. Las estaciones se organizan lógicamente en un orden y el testigo va pasando de una a otra. Cuando una estación recibe el testigo, puede transmitir durante un tiempo determinado y luego debe entregarlo a la siguiente estación.
+ 
+**Ventaja principal:** evita las colisiones y permite un acceso más ordenado y predecible al medio, algo útil para aplicaciones donde es importante conocer el tiempo máximo de espera.
+
+**Desventaja:** es un estándar antiguo y actualmente retirado. IEEE indica que 802.4 fue retirado en 2002, por lo que hoy no es una tecnología utilizada habitualmente en redes modernas.
+
+Se utilizaba principalmente en entornos industriales, donde era importante que la comunicación fuera ordenada y que cada dispositivo tuviera un tiempo de espera predecible para poder transmitir. Actualmente prácticamente no se utiliza, ya que fue reemplazado por tecnologías más modernas, principalmente Ethernet (IEEE 802.3) y otros estándares de redes industriales.
+
+**Fuente:** 
+ [IEEE 802.4](https://es.wikipedia.org/wiki/IEEE_802.4 )
+
+[↑ Volver al índice](#índice-de-preguntas)
+
+---
+
+## 30. ¿Qué protocolos se usan para enviar y recibir correo? 
+
+Para enviar y recibir correo electrónico se utilizan principalmente estos protocolos:
+
+**SMTP (Simple Mail Transfer Protocol):** se utiliza para enviar correos electrónicos, tanto desde el cliente de correo al servidor como entre servidores de correo.
+
+**POP3 (Post Office Protocol 3):** se utiliza para recibir y descargar correos desde el servidor al dispositivo. Generalmente, los mensajes se descargan al equipo y pueden eliminarse del servidor.
+
+**IMAP (Internet Message Access Protocol):** también permite recibir y consultar correos, pero mantiene los mensajes en el servidor y sincroniza la información entre diferentes dispositivos.
+
+**Fuente:** 
+
+- [Correo electrónico](https://www.labredes.unlu.edu.ar/sites/www.labredes.unlu.edu.ar/files/site/data/tyr/TyR-2021_tpl4-Correo-electronico.pdf)
+
+- [¿Qué son IMAP y POP?](https://support.microsoft.com/es-es/outlook/what-are-imap-and-pop) 
+
+[↑ Volver al índice](#índice-de-preguntas)
+
+---
+
+## 31. ¿Qué protocolo puede usarse para leer correo recibido? 
+
+**IMAP (Internet Message Access Protocol):** permite leer y administrar los correos directamente en el servidor. Es especialmente útil cuando se accede al correo desde varios dispositivos, ya que mantiene los mensajes sincronizados.
+
+**POP3 (Post Office Protocol 3):** permite descargar los correos desde el servidor al dispositivo para poder leerlos. Es un método más orientado a trabajar con los mensajes localmente.
+
+ Actualmente, IMAP suele ser la opción más utilizada para leer y sincronizar el correo en varios dispositivos.
+
+**Fuente:** 
+
+[Correo electrónico](https://www.labredes.unlu.edu.ar/sites/www.labredes.unlu.edu.ar/files/site/data/tyr/TyR-2021_tpl4-Correo-electronico.pdf)
+
+[↑ Volver al índice](#índice-de-preguntas)
+
+---
+
+## 32. Diferencias entre IPV4 e IPV6 
+
+**IPv4 (Internet Protocol versión 4) e IPv6 (Internet Protocol versión 6)** son protocolos utilizados para identificar dispositivos y permitir la comunicación entre ellos en una red.
+La principal diferencia es que IPv4 utiliza direcciones de 32 bits, mientras que IPv6 utiliza direcciones de 128 bits. Esto hace que IPv6 pueda proporcionar una cantidad muchísimo mayor de direcciones IP. IPv6 fue desarrollado, entre otras razones, para solucionar la limitación de direcciones de IPv4 y permitir el crecimiento de Internet.
+
+**Fuente:** 
+
+[Correo electrónico](https://www.labredes.unlu.edu.ar/sites/www.labredes.unlu.edu.ar/files/site/data/tyr/TyR-2021_tpl4-Correo-electronico.pdf)
 
 [↑ Volver al índice](#índice-de-preguntas)
 
@@ -736,6 +807,9 @@ Para ampliar la cobertura Wi-Fi de mi casa sin realizar cableado, utilizo un ext
 También utilizo aplicaciones del celular como controles remotos para distintos dispositivos y realizo casting de contenido hacia Smart TV. Además tengo experiencia vinculando dispositivos como AirTag y otros equipos inteligentes mediante Bluetooth o Wi-Fi.
 
 ### Daniela Tassara: 
+- En mi trabajo tengo experiencia utilizando redes principalmente para acceder a distintos entornos de la empresa y de los clientes. Por ejemplo, me conecto a una VPN para poder acceder a las páginas y recursos internos de la empresa y, cuando trabajo con algún cliente, utilizo otra VPN para poder ingresar a su entorno.
+
+- También utilizo PuTTY para conectarme a un bastion y desde ahí acceder a servicios internos, como un localhost y URLs privadas que no están disponibles desde una conexión común. Si bien mi experiencia está más enfocada en el uso de redes dentro del día a día que en la administración de infraestructura, estoy bastante familiarizada con este tipo de conexiones y accesos a entornos privados.
 
 ### María Florencia Quintana: 
 
