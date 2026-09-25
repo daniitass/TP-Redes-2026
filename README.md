@@ -626,6 +626,56 @@ El UTP es una opción económica y sencilla para redes de corta distancia, mient
 
 ---
 
+## 27. Explique el modelo OSI. 
+
+El **modelo OSI (Open Systems Interconnection)** es un modelo de referencia utilizado para explicar cómo se comunican los dispositivos dentro de una red. Divide la comunicación en 7 capas.
+
+* **Capa 7 – La capa de aplicación**
+La Capa de Aplicación es la capa más alta del modelo OSI . Es la interfaz entre el usuario y la red. Gestiona servicios de comunicación como la navegación web (HTTP, HTTPS), el correo electrónico (SMTP, IMAP, POP3), las transferencias de archivos (FTP, SFTP) y las sesiones remotas (SSH, Telnet). 
+Esta capa proporciona servicios de red a las aplicaciones del usuario final, asegurando que los datos estén correctamente empaquetados y listos para la transmisión. También maneja funciones como la autenticación, el intercambio de recursos y la gestión de sesiones para aplicaciones distribuidas y API. 
+
+* **Capa 6 – La capa de presentación**
+La Capa de Presentación asegura que los datos enviados por la capa de aplicación de un sistema sean legibles por la capa de aplicación de otro. Es responsable del formato de los datos, la traducción, la compresión y el cifrado.Esta capa actúa como un traductor transformando las estructuras de datos en un formato que ambos sistemas pueden entender, manteniendo la eficiencia y la seguridad durante la transmisión.
+
+* **Capa 5 – La capa de sesión**
+La Capa de Sesión gestiona y controla el diálogo entre dos dispositivos o aplicaciones. Establece, mantiene, sincroniza y termina las sesiones de comunicación, asegurando que el intercambio de datos ocurra de manera organizada y coordinada. Los protocolos como NetBIOS, RPC (Remote Procedure Call) y PPTP (Point-to-Point Tunneling Protocol) a menudo operan aquí. La capa también maneja los puntos de control de sesión y la recuperación, lo cual es útil para mantener la estabilidad durante transferencias de datos largas o complejas.
+
+* **Capa 4 – La capa de transporte**
+La Capa de Transporte proporciona comunicación de extremo a extremo y entrega confiable de datos entre dispositivos. Segmenta los datos en unidades manejables y asegura que lleguen intactos, en orden y sin duplicación.
+
+Dos protocolos clave definen esta capa:
+**TCP (Transmission Control Protocol)**: Comunicación confiable y orientada a la conexión utilizada por aplicaciones como navegadores web y clientes de correo electrónico.
+
+**UDP (User Datagram Protocol)**: Comunicación más rápida y sin conexión, utilizada a menudo en medios de transmisión o juegos donde la velocidad es más importante que la fiabilidad.
+El control de flujo, la detección de errores y la retransmisión ocurren todos aquí, haciendo de esta capa una de las más críticas para el rendimiento y la fiabilidad de la red.
+
+* **Capa 3 – La capa de red**
+
+Esta capa es responsable de determinar la ruta lógica que los datos toman a través de una red. Maneja el direccionamiento, el enrutamiento y el reenvío de paquetes a través de múltiples redes interconectadas.
+Los protocolos principales **incluyen IP (Internet Protocol), ICMP (Internet Control Message Protocol) e IPSec**. Los dispositivos como los enrutadores operan en esta capa, utilizando algoritmos y tablas de enrutamiento para dirigir los paquetes de manera eficiente hacia su destino, incluso a través de internetworks vastos y complejos.
+
+* **Capa 2 – La capa de enlace de datos**
+La Capa de Enlace de Datos proporciona una transferencia de datos confiable de nodo a nodo. Organiza bits crudos en tramas, maneja la detección y corrección de errores, y asegura un acceso ordenado al medio de transmisión física.
+
+Esta capa se divide en dos subcapas:
+**Control de Enlace Lógico (LLC)**: Gestiona la sincronización de tramas y la verificación de errores.
+
+**Control de Acceso al Medio (MAC)**: Controla cómo los dispositivos acceden y comparten el medio de red.
+
+Las tecnologías comunes aquí incluyen Ethernet (IEEE 802.3), Wi-Fi (IEEE 802.11) y PPP (Point-to-Point Protocol). Los conmutadores de red y puentes funcionan principalmente en esta capa.
+
+* **Capa 1 – La capa física**
+Transmite datos binarios crudos (1s y 0s) sobre medios físicos como cables de cobre, fibras ópticas o frecuencias de radio inalámbricas. Define los estándares eléctricos, mecánicos y procedimentales para activar y mantener el enlace físico entre los dispositivos de red.
+Los estándares y tecnologías clave en esta capa incluyen interfaces físicas Ethernet, RS-232, DSL, SONET y Bluetooth. Los componentes de hardware como concentradores, cables, repetidores, conectores y transceptores operan aquí, determinando la velocidad de transmisión real, la fuerza de la señal y la integridad del medio.
+
+<img width="855" height="568" alt="image" src="https://github.com/user-attachments/assets/15ebef0f-5ab8-49a6-ba74-7129e04f2326" />
+
+**Fuente:** [¿Qué es el Modelo OSI?](https://www.trendmicro.com/es_es/what-is/it-security/osi-model.html )
+
+[↑ Volver al índice](#índice-de-preguntas)
+
+---
+
 ## 33. Experiencia en Redes:
 ### Sergio Lezcano: 
 
