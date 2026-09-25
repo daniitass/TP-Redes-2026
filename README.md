@@ -641,28 +641,32 @@ La Capa de Presentación asegura que los datos enviados por la capa de aplicaci�
 La Capa de Sesión gestiona y controla el diálogo entre dos dispositivos o aplicaciones. Establece, mantiene, sincroniza y termina las sesiones de comunicación, asegurando que el intercambio de datos ocurra de manera organizada y coordinada. Los protocolos como NetBIOS, RPC (Remote Procedure Call) y PPTP (Point-to-Point Tunneling Protocol) a menudo operan aquí. La capa también maneja los puntos de control de sesión y la recuperación, lo cual es útil para mantener la estabilidad durante transferencias de datos largas o complejas.
 
 * **Capa 4 – La capa de transporte**
-La Capa de Transporte proporciona comunicación de extremo a extremo y entrega confiable de datos entre dispositivos. Segmenta los datos en unidades manejables y asegura que lleguen intactos, en orden y sin duplicación.
 
-Dos protocolos clave definen esta capa:
-**TCP (Transmission Control Protocol)**: Comunicación confiable y orientada a la conexión utilizada por aplicaciones como navegadores web y clientes de correo electrónico.
+  La Capa de Transporte proporciona comunicación de extremo a extremo y entrega confiable de datos entre dispositivos. Segmenta los datos en unidades manejables y asegura que lleguen intactos, en orden y sin duplicación.
 
-**UDP (User Datagram Protocol)**: Comunicación más rápida y sin conexión, utilizada a menudo en medios de transmisión o juegos donde la velocidad es más importante que la fiabilidad.
-El control de flujo, la detección de errores y la retransmisión ocurren todos aquí, haciendo de esta capa una de las más críticas para el rendimiento y la fiabilidad de la red.
+  Dos protocolos clave definen esta capa:
+
+  * **TCP (Transmission Control Protocol):** Comunicación confiable y orientada a la conexión utilizada por aplicaciones como navegadores web y clientes de correo electrónico.
+
+  * **UDP (User Datagram Protocol):** Comunicación más rápida y sin conexión, utilizada a menudo en medios de transmisión o juegos donde la velocidad es más importante que la fiabilidad.
+
+  El control de flujo, la detección de errores y la retransmisión ocurren todos aquí, haciendo de esta capa una de las más críticas para el rendimiento y la fiabilidad de la red.
 
 * **Capa 3 – La capa de red**
-
 Esta capa es responsable de determinar la ruta lógica que los datos toman a través de una red. Maneja el direccionamiento, el enrutamiento y el reenvío de paquetes a través de múltiples redes interconectadas.
 Los protocolos principales **incluyen IP (Internet Protocol), ICMP (Internet Control Message Protocol) e IPSec**. Los dispositivos como los enrutadores operan en esta capa, utilizando algoritmos y tablas de enrutamiento para dirigir los paquetes de manera eficiente hacia su destino, incluso a través de internetworks vastos y complejos.
 
 * **Capa 2 – La capa de enlace de datos**
-La Capa de Enlace de Datos proporciona una transferencia de datos confiable de nodo a nodo. Organiza bits crudos en tramas, maneja la detección y corrección de errores, y asegura un acceso ordenado al medio de transmisión física.
 
-Esta capa se divide en dos subcapas:
-**Control de Enlace Lógico (LLC)**: Gestiona la sincronización de tramas y la verificación de errores.
+  La Capa de Enlace de Datos proporciona una transferencia de datos confiable de nodo a nodo. Organiza bits crudos en tramas, maneja la detección y corrección de errores, y asegura un acceso ordenado al medio de transmisión física.
 
-**Control de Acceso al Medio (MAC)**: Controla cómo los dispositivos acceden y comparten el medio de red.
+  Esta capa se divide en dos subcapas:
 
-Las tecnologías comunes aquí incluyen Ethernet (IEEE 802.3), Wi-Fi (IEEE 802.11) y PPP (Point-to-Point Protocol). Los conmutadores de red y puentes funcionan principalmente en esta capa.
+  * **Control de Enlace Lógico (LLC):** Gestiona la sincronización de tramas y la verificación de errores.
+
+  * **Control de Acceso al Medio (MAC):** Controla cómo los dispositivos acceden y comparten el medio de red.
+
+  Las tecnologías comunes aquí incluyen Ethernet (IEEE 802.3), Wi-Fi (IEEE 802.11) y PPP (Point-to-Point Protocol). Los conmutadores de red y puentes funcionan principalmente en esta capa.
 
 * **Capa 1 – La capa física**
 Transmite datos binarios crudos (1s y 0s) sobre medios físicos como cables de cobre, fibras ópticas o frecuencias de radio inalámbricas. Define los estándares eléctricos, mecánicos y procedimentales para activar y mantener el enlace físico entre los dispositivos de red.
@@ -671,6 +675,37 @@ Los estándares y tecnologías clave en esta capa incluyen interfaces físicas E
 <img width="855" height="568" alt="image" src="https://github.com/user-attachments/assets/15ebef0f-5ab8-49a6-ba74-7129e04f2326" />
 
 **Fuente:** [¿Qué es el Modelo OSI?](https://www.trendmicro.com/es_es/what-is/it-security/osi-model.html )
+
+[↑ Volver al índice](#índice-de-preguntas)
+
+---
+
+## 28. Explicar el estándar IEEE 802.3 regula la red. Cómo se implementa, ventajas y desventajas. 
+
+El estándar IEEE 802.3 define las normas para las redes Ethernet cableadas. Especifica cómo se transmiten los datos y cómo deben funcionar aspectos de la capa física y de enlace de datos, incluyendo el acceso al medio y las interfaces de conexión. Puede utilizar diferentes medios físicos, como cable de par trenzado, coaxial y fibra óptica. 
+
+**¿Cómo se implementa?**
+
+ Se implementa utilizando dispositivos Ethernet, principalmente switches, routers y placas de red, conectados mediante cables compatibles con el estándar. Cada dispositivo utiliza una dirección MAC para identificar los equipos dentro de la red. Actualmente, las redes Ethernet suelen funcionar en modo full-duplex, permitiendo enviar y recibir datos simultáneamente.
+ 
+**Ventajas:**
+
+* Es una tecnología muy utilizada y estandarizada.
+* Permite diferentes velocidades, desde Mbps hasta cientos de Gbps.
+* Es compatible con distintos medios físicos.
+* Ofrece una conexión estable y rápida.
+* Puede utilizar PoE (Power over Ethernet) para transmitir datos y energía por el mismo cable.
+
+**Desventajas:**
+
+* Al ser una tecnología cableada, requiere instalar cables.
+* La distancia de comunicación depende del tipo de cable y tecnología utilizada.
+* La instalación puede ser más compleja cuando se necesita cablear grandes espacios.
+* Los cables de cobre pueden ser afectados por interferencias electromagnéticas, a diferencia de la fibra óptica.
+
+**Fuente:** 
+-[Ethernet](https://standards.ieee.org/ieee/802.3/12400)
+-[Comunicación](https://technav.ieee.org/topic/communication-cables)
 
 [↑ Volver al índice](#índice-de-preguntas)
 
