@@ -594,6 +594,37 @@ Por ejemplo, se puede dar mayor prioridad a llamadas de voz o videoconferencias 
 
 ---
 
+## 25. ¿Qué diferencias puede encontrar entre una conexión Coaxial, UTP o Fibra? 
+Las conexiones coaxial, UTP y fibra óptica se diferencian principalmente por el medio que utilizan para transmitir la información, la velocidad, la distancia que pueden alcanzar y su resistencia a las interferencias.
+
+El **cable coaxia**l está formado por un conductor de cobre central, rodeado por un material aislante y una malla o blindaje metálico exterior. La información se transmite mediante señales eléctricas. 
+
+El **UTP (Unshielded Twisted Pair)** está compuesto por varios pares de cables de cobre que están trenzados entre sí. El trenzado permite reducir las interferencias eléctricas entre los cables. Es uno de los medios más utilizados en redes Ethernet y normalmente utiliza conectores RJ-45.
+
+La **fibra óptica** utiliza uno o más filamentos de vidrio o material similar para transmitir información mediante pulsos de luz, en lugar de señales eléctricas. 
+
+El UTP es una opción económica y sencilla para redes de corta distancia, mientras que el coaxial ofrece mayor protección frente a interferencias y es utilizado principalmente en servicios de televisión y cable. Por otro lado, la fibra óptica permite alcanzar mayores velocidades y distancias, además de ser inmune a las interferencias electromagnéticas, aunque su instalación suele ser más costosa y compleja. Por lo tanto, la elección del tipo de conexión depende de las necesidades y características de cada red. 
+
+[↑ Volver al índice](#índice-de-preguntas)
+
+---
+## 26. Según Cisco, ¿qué significa CCENT, CCNA y CCNP? Descripción breve del Track Routing & Switching y de algún otro a elección (ej. Wireless, Security, Cloud, etc). 
+
+**CCENT (Cisco Certified Entry Networking Technician)**: era una certificación de nivel inicial de Cisco que validaba conocimientos básicos sobre redes y dispositivos Cisco. Actualmente está retirada y Cisco ofrece otras certificaciones iniciales, como CCST Networking.
+
+**CCNA (Cisco Certified Network Associate)**: es una certificación de nivel asociado que demuestra conocimientos sobre fundamentos de redes, tecnologías de networking y conceptos necesarios para trabajar con redes.
+
+**CCNP (Cisco Certified Network Professional)**: es una certificación de nivel profesional, orientada a personas con conocimientos más avanzados. Actualmente existen diferentes especializaciones, como CCNP Enterprise, Security, Wireless, Data Center y Service Provider, entre otras.
+
+**El track Routing & Switching** estaba orientado al diseño, configuración, administración y resolución de problemas de redes IP, routers y switches. Su objetivo era desarrollar conocimientos sobre routing, switching y tecnologías utilizadas para conectar diferentes dispositivos y redes.Actualmente, Cisco integra estos conocimientos principalmente dentro de CCNP Enterprise.
+
+**El track Security** está orientado a la seguridad de redes y sistemas, incluyendo la protección de infraestructuras, control de acceso, seguridad de endpoints, seguridad en la nube y detección y respuesta ante amenazas. Cisco ofrece actualmente la certificación CCNP Security 
+
+**Fuente:** [Certificaciones de Cisco](https://www.cisco.com/site/ar/es/learn/index.html)
+
+[↑ Volver al índice](#índice-de-preguntas)
+
+---
 
 ## 33. Experiencia en Redes:
 ### Sergio Lezcano: 
