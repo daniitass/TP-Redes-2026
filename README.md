@@ -47,6 +47,8 @@ Buenos Aires, Argentina · 2026
 
 Este repositorio contiene el desarrollo del trabajo práctico grupal de la materia **Programación sobre Redes**, compuesto por 33 preguntas sobre fundamentos de redes informáticas, protocolos de comunicación, tecnologías de conectividad, infraestructura y seguridad.
 
+[Video en Notebook](https://notebook.google.com/notebook/ac5bf0c9-fd7c-4b2c-b8af-f77fe51984df/artifact/20e38e82-70e7-4c01-8bff-e039ec11a775?utm_source=nlm_web_share&utm_medium=google_oo&utm_campaign=art_share_1&utm_content=&utm_smc=nlm_web_share_google_oo_art_share_1_)
+
 ---
 
 ## Índice de preguntas
